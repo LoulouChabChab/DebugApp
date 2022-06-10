@@ -97,8 +97,8 @@ public class MenuDeroulant extends AppCompatActivity{
         setContentView(R.layout.activity_menu_deroulant);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        NavigationView navigationView = findViewById(R.id.nav_view);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout_deroulant);
+        NavigationView navigationView = findViewById(R.id.nav_view_menu);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
