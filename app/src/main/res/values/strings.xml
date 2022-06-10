@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_welcome">Accueil</string>
+    <string name="menu_dataset1">DATASET 1, DATASET 1, DATASET 1, DATASET 1, DATASET 1 </string>
+    <string name="menu_dataset2">DATASET 2, DATASET 2, DATASET 2, DATASET 2, DATASET 2 </string>
+    <string name="menu_dataset3">DATASET 3, DATASET 3, DATASET 3, DATASET 3, DATASET 3</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_menu_deroulant">MenuDeroulant</string>
+
+
+    <string name="title_dataset1">Welcome dataset1</string>
+    <string name="title_dataset2">Welcome dataset2</string>
+    <string name="title_dataset3">Welcome dataset3</string>
+    <string name="btn_auth">AUTORISATIONS</string>
+    <string name="btn_insert">INSERTION</string>
+    <string name="btn_delete">SUPPRESSION</string>
+
+
+
+    <string name="texte_dataset1">THIS awesome dataset</string>
+
+</resources>

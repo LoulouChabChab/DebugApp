@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- mettre plutot constraint layout-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lay_dataset2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_dataset_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/title_dataset2"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/guideline_bottom_horizontal_titleDataset2"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_end_vertical_titleDataset2"
+            app:layout_constraintStart_toStartOf="@+id/guideline_start_vertical_titleDataset2"
+            app:layout_constraintTop_toTopOf="@id/guideline_top_horizontal_titleDataset2" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_start_vertical_titleDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_end_vertical_titleDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_top_horizontal_titleDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_bottom_horizontal_titleDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.30" />
+
+        <TextView
+            android:id="@+id/texte_dataset2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/texte_dataset1"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@id/guideline_bottom_horizontal_texteDataset2"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_end_vertical_titleDataset2"
+            app:layout_constraintStart_toStartOf="@+id/guideline_start_vertical_titleDataset2"
+            app:layout_constraintTop_toTopOf="@id/guideline_top_horizontal_texteDataset2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_top_horizontal_texteDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.35" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_bottom_horizontal_texteDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.60" />
+
+        <Button
+            android:id="@+id/btnInsertDataset2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/btn_insert"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_auth_insert"
+            app:layout_constraintBottom_toBottomOf="@id/guideline_bottom_horizontal_buttonDataset2"
+            app:layout_constraintEnd_toEndOf="@id/guideline_end_vertical_btn_insertDataset2"
+            app:layout_constraintStart_toStartOf="@id/guideline_start_vertical_btn_insertDataset2"
+            app:layout_constraintTop_toTopOf="@id/guideline_bottom_horizontal_texteDataset2">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btnAutorisationsDataset2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/btn_auth"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_auth_insert"
+            app:layout_constraintBottom_toBottomOf="@id/guideline_bottom_horizontal_buttonDataset2"
+            app:layout_constraintEnd_toEndOf="@id/guideline_end_vertical_btn_autorisations2"
+            app:layout_constraintStart_toStartOf="@+id/guideline_start_vertical_btn_autorisations2"
+            app:layout_constraintTop_toTopOf="@id/guideline_bottom_horizontal_texteDataset2" />
+
+        <Button
+            android:id="@+id/btnDeleteDataset2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/custom_button_delete"
+            android:enabled="false"
+            android:text="@string/btn_delete"
+            app:layout_constraintBottom_toBottomOf="@id/guideline_bottom_horizontal_buttonSuppression2"
+            app:layout_constraintEnd_toEndOf="@id/guideline_end_vertical_buttonDataset2"
+            app:layout_constraintStart_toStartOf="@id/guideline_start_vertical_buttonDataset2"
+            app:layout_constraintTop_toTopOf="@id/guideline_top_horizontal_buttonSuppression2">
+
+        </Button>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_bottom_horizontal_buttonDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.75" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_start_vertical_buttonDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.30" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_end_vertical_buttonDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.70" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_top_horizontal_buttonSuppression2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.8" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_bottom_horizontal_buttonSuppression2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.95" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_end_vertical_btn_autorisations2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.45" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_start_vertical_btn_autorisations2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.20" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_start_vertical_btn_insertDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.55" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_end_vertical_btn_insertDataset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.80" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
